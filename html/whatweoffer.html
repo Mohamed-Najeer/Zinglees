@@ -1,0 +1,117 @@
+<html>
+
+  <head>
+    <title>What WE Offer</title>
+    <link rel="stylesheet" href="../assets/jarfiles/bootstrap.min.css">
+    <script src="../assets/jarfiles/jquery-3.5.1.min.js"></script>
+    <script src="../assets/jarfiles/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark headertxt">
+    <div class="container">
+    <ul class="navbar-nav  mt-2 mt-lg-0">
+      <li class="nav-item ">
+        <a class="nav-link" href="#"><i class="fa fa-envelope pr-1"></i>rajesh1387@gmail.com</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-phone pr-1"></i>9654732216</span></a>
+      </li>
+    </ul>
+    <form class="form-inline  my-2 my-lg-2 mr-2">
+      <button type="button" class="btn btn-sm headerbtn mr-sm-2 headertxt">Login</button>
+      <button type="button" class="btn btn-sm headerbtn2 my-2 my-sm-0 headertxt">REGISTER</button>
+    </form>
+  </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-sm  navbar-light menubg">
+    <div class="container">
+     <a class="navbar-brand mr-auto  ml-2" href="#">Logo</a>
+    <ul class="navbar-nav  mr-2  menutxt" >
+      <li class="nav-item ">
+        <a class="nav-link  " href="home.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="aboutus.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="whyus.html">WHY US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="whatweoffer.html">WHAT WE OFFER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="blog.html">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="contactus.html">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <div class="container-fluid fullbody">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="text-center p-5 bodyheader"><b>WHAT WE OFFER</b></h5>
+      </div>
+    </div>
+    <div class="row wwocontent">
+      <div class="col-12 pt-5">
+        <div class="container">
+          <h5 class="text-center px-5 pt-2 bodyheader"><span class=" hiphen">---------</span><b>WELCOME TO
+              CAELUM</b><span class="hiphen">---------</span></h5>
+          <p class="text-center bodycontent hiphentxt pt-0 pb-0">Enjoy our free online courses, wherever you are and
+            whenever you want. Access course content on mobile, tablet or desktop.</p>
+          <p class="text-center whatwe-bodycontent hiphentxt pt-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Sapiente, harum neque nihil esse exercitationem alias quidem dolorum dolor mollitia quasi perferendis
+            ab. Illo nostrum inventore tenetur, ducimus amet iure excepturi.</p>
+          <div class="row pb-5">
+            <div class="col-sm-6">
+              <div class="pt-0 wwoContent-left px-0"><img src="../assets/images/whatweoffer/What we offer.jpeg" style="height: fit-content"/></div>
+            </div>
+            <div class="col-sm-6">
+              <div class=" px-0 wwoContent-right py-0">
+                <ul class="nav bodycontentstyle" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#syllabus" role="tab" aria-controls="syllabus" aria-selected="true">Syllabus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#subject" role="tab" aria-controls="subject" aria-selected="false">Subjects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#classes" role="tab" aria-controls="classes" aria-selected="false">Classes</a>
+                  </li>
+                </ul>
+                <div class="tab-content mt-3 bodycontentstyle" id="myTabContent">
+                  <div class="tab-pane fade show active" id="syllabus" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo laudantium natus soluta rem ea, repellendus cum ullam assumenda ratione incidunt, tempora maiores nemo quaerat, quod quas ex est voluptates aspernatur.</div>
+                  <div class="tab-pane fade" id="subject" role="tabpanel" aria-labelledby="profile-tab">dolor sit amet consectetur adipisicing elit. Quo laudantium natus soluta rem ea, repellendus cum ullam assumenda ratione incidunt, tempora maiores nemo quaerat, quod quas ex est voluptates aspernatur.</div>
+                  <div class="tab-pane fade" id="classes" role="tabpanel" aria-labelledby="contact-tab">tempora maiores nemo quaerat, quod quas ex est voluptates aspernatur.</div>
+                </div> 
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footerContent"></div>
+  <script>
+    $(function () {
+      // $("#headerContent").load("header.html");
+      $("#footerContent").load("footer.html");
+    });
+    $(document).ready(function(){
+  $('.navbar-nav .nav-link').click(function(){
+      $('.navbar-nav .nav-link').removeClass('active');
+      $(this).addClass('active');
+  })
+});
+   </script>
+</body>
+
+</html>
