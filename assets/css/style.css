@@ -1,4 +1,7 @@
 /* ------ Header_Styles ------ */
+.logo{
+ height:2rem;   
+}
 .headertxt{
     font-size:10px;
   }
